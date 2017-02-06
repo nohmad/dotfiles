@@ -2,12 +2,10 @@
 export LS_OPTIONS="--color=auto"
 export CLICOLOR="Yes"
 export LSCOLOR=""
-
-export PATH=$HOME/.rbenv/plugins/ruby-build/bin:$HOME/local/bin:$HOME/.rbenv/shims:/usr/local/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/.rbenv/shims:/usr/local/bin:$PATH
 
 alias dnsflush='dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 alias netports='lsof -i4 -i6 -s TCP:LISTEN -P'
-
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
