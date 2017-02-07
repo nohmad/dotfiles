@@ -3,6 +3,7 @@ export LS_OPTIONS="--color=auto"
 export CLICOLOR="Yes"
 export LSCOLOR=""
 export PATH=$HOME/.local/bin:$HOME/.rbenv/shims:/usr/local/bin:$PATH
+export LC_CTYPE=ko_KR.UTF-8
 
 alias dnsflush='dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 alias netports='lsof -i4 -i6 -s TCP:LISTEN -P'
