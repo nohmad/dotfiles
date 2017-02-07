@@ -1,0 +1,16 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  { "key": "cmd+down",               "command": "workbench.action.terminal.focusNext",
+                                     "when": "terminalFocus" },
+  { "key": "cmd+up",                 "command": "workbench.action.terminal.focusPrevious",
+                                     "when": "terminalFocus" },
+  { "key": "cmd+\\",                 "command": "workbench.action.toggleSidebarVisibility" },
+  { "key": "cmd+e",                  "command": "workbench.view.explorer" },
+  { "key": "cmd+b",                  "command": "togglePanel" },
+  { "key": "cmd+j",                  "command": "editor.action.joinLines",
+                                     "when": "editorTextFocus && !editorReadonly" },
+  { "key": "cmd+i",                  "command": "compositionEnd" },
+  { "key": "cmd+l",                  "command": "expandLineSelection",
+                                     "when": "editorTextFocus" },
+  { "key": "alt+cmd+,",              "command": "workbench.action.tasks.test" }
+]
